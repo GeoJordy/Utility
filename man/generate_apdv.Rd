@@ -4,7 +4,13 @@
 \alias{generate_apdv}
 \title{Generate apdv file for EVS}
 \usage{
-generate_apdv(data, base_elevation, elevation_units, result_units, fp_out)
+generate_apdv(
+  data,
+  base_elevation,
+  elevation_units = "ft",
+  result_units,
+  fp_out
+)
 }
 \arguments{
 \item{data}{data.frame to be converted to aidv format for use in EVS; names(data)==c("x", "y", "z", "result_name_1", "result_name_2", ... ,"boring")}

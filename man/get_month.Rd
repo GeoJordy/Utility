@@ -2,7 +2,7 @@
 % Please edit documentation in R/date_utilities.R
 \name{get_month}
 \alias{get_month}
-\title{Function returns month associated with a POSIXct data}
+\title{Function returns month associated with a POSIXct date}
 \usage{
 get_month(date)
 }
@@ -10,5 +10,5 @@ get_month(date)
 \item{date}{POSIXct date}
 }
 \description{
-Function returns month associated with a POSIXct data
+Function returns month associated with a POSIXct date
 }

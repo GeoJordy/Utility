@@ -9,7 +9,7 @@ raster_to_xyz(fp_raster, fp_out)
 \arguments{
 \item{fp_raster}{file path of input raster}
 
-\item{fp_out}{file path of output pointcloud}
+\item{fp_out}{file path of output point cloud}
 }
 \description{
 Convert raster data to an xyz point cloud

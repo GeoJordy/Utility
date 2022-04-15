@@ -2,7 +2,7 @@
 % Please edit documentation in R/date_utilities.R
 \name{get_year}
 \alias{get_year}
-\title{Function returns year associated with a POSIXct data}
+\title{Function returns year associated with a POSIXct date}
 \usage{
 get_year(date)
 }
@@ -10,5 +10,5 @@ get_year(date)
 \item{date}{POSIXct date}
 }
 \description{
-Function returns year associated with a POSIXct data
+Function returns year associated with a POSIXct date
 }

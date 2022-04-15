@@ -2,7 +2,7 @@
 % Please edit documentation in R/lookup_cass.R
 \name{lookup_cass}
 \alias{lookup_cass}
-\title{Function tried to find a cas number associated with a string using the common chemistry database}
+\title{Search for the cas number associated with a string in the common chemistry database}
 \usage{
 lookup_cass(search_string)
 }
@@ -13,5 +13,5 @@ lookup_cass(search_string)
 if the string is associated with a cass number in the database, the cass number will be returned; if the string is not associated with a cass number, NA will be returned
 }
 \description{
-Function tried to find a cas number associated with a string using the common chemistry database
+Search for the cas number associated with a string in the common chemistry database
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/result_to_text.R
 \name{result_to_text}
 \alias{result_to_text}
-\title{Function for formatting analytical chemistry results}
+\title{Function formats analytical chemistry results}
 \usage{
 result_to_text(RESULT, DETECT_FLAG, DETECT_LIMIT)
 }
@@ -17,5 +17,5 @@ result_to_text(RESULT, DETECT_FLAG, DETECT_LIMIT)
 returns a character vector compatible with EVS
 }
 \description{
-Function for formatting analytical chemistry results
+Function formats analytical chemistry results
 }
