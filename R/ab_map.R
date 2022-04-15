@@ -1,7 +1,7 @@
 #' The function maps data from one set to another using a lookup table
 #' @param dat vector to be mapped
 #' @param map data.frame with two columns defining the mapping
-#' @example 
+#' @examples 
 #' ab_map(
 #'   c(1,2,3,1,2,3),
 #'   data.frame(c(1, 2, 3), c("cat", "dog", "dog"))

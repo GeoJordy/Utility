@@ -1,9 +1,9 @@
 #' Generate an aidv file for EVS
 #' @param data data.frame to be converted to aidv format for use in EVS; names(data)==c("x", "y", "ztop",  "xbot", "result_name_1", "result_name_2", ... ,"boring")  
-#' @param base_elevation
-#' @param elevation_units
+#' @param base_elevation ground elevation at sample location
+#' @param elevation_units elevation units; defaults to "ft"
 #' @param result_units vector length must be equal to the number of analytes
-#' @param fp_out
+#' @param fp_out file path to output aidv file
 #' @examples 
 #' data <- data.frame(
 #'    x = c(1,2),
@@ -19,7 +19,7 @@
 #' elevation_units <- "feet"
 #' result_units <- c("ug/l", "ug/l")
 #' fp_out <- "my_data.aidv"
-#' generate_aidv(data, base_elevation, elevation_units, result_units, fp_out)
+#' generate_aidv(data, base_elevation, elevation_units="ft", result_units, fp_out)
 #' @export
 generate_aidv <- function(
     data,

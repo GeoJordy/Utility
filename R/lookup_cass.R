@@ -1,5 +1,5 @@
 #' Function tried to find a cas number associated with a string using the common chemistry database
-#' @param search_string
+#' @param search_string name of analyte
 #' @return if the string is associated with a cass number in the database, the cass number will be returned; if the string is not associated with a cass number, NA will be returned 
 #' @export
 lookup_cass <- function(search_string){

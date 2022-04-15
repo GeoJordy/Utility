@@ -1,4 +1,4 @@
-#' Function sources all files within a given directory
+#' Function sources all files within current working directory
 #' @export
 source_dir <- function(){
   dir <- get_dir()

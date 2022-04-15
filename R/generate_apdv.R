@@ -1,9 +1,9 @@
 #' Generate apdv file for EVS
 #' @param data data.frame to be converted to aidv format for use in EVS; names(data)==c("x", "y", "z", "result_name_1", "result_name_2", ... ,"boring")
-#' @param base_elevation
-#' @param elevation_units
+#' @param base_elevation ground elevation at sample location
+#' @param elevation_units elevation units; defaults to "ft"
 #' @param result_units vector length must be equal to the number of analytes
-#' @param fp_out
+#' @param fp_out file path to output apdv file
 #' @examples 
 #' data <- data.frame(
 #'    x = c(1,2),

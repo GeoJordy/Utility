@@ -1,6 +1,6 @@
 #' View a color or a set of color overlays
 #' @param cols a list of color overlays (see example)
-#' @example
+#' @examples
 #' see_col(
 #'  list(
 #'    rgb(0, 0, 0, 1),

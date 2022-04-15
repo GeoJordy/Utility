@@ -12,6 +12,7 @@ get_dem <- function(df, epsg){
 #' Get elevation at a set of points using Amazon Web Services
 #' @param df data.frame of x and y coordinates 
 #' @param epsg epsg code for coordinate pair
+#' @export
 get_elevation_point <- function(df, epsg){
   dem <- elevatr::get_elev_point(
     locations = df,
