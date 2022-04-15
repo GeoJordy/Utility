@@ -1,6 +1,6 @@
 #' Convert raster data to an xyz point cloud
 #' @param fp_raster file path of input raster
-#' @param fp_out file path of output pointcloud
+#' @param fp_out file path of output point cloud
 #' @export
 raster_to_xyz <- function(fp_raster, fp_out){
   raster_in <- raster::raster(fp_raster)

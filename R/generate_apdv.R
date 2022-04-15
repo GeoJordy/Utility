@@ -23,7 +23,7 @@
 generate_apdv <- function(
     data,
     base_elevation,
-    elevation_units,
+    elevation_units="ft",
     result_units,
     fp_out
 ){

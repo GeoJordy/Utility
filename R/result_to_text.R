@@ -1,4 +1,4 @@
-#' Function for formatting analytical chemistry results
+#' Function formats analytical chemistry results
 #' @param RESULT numeric vector of analytical chemistry results
 #' @param DETECT_FLAG vector that whether or not the result lies beneath a detection limit; possible values are "N" and "Y"
 #' @param DETECT_LIMIT the detection limits associate with the samples

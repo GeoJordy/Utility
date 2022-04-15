@@ -24,7 +24,7 @@
 generate_aidv <- function(
     data,
     base_elevation,
-    elevation_units,
+    elevation_units = "ft",
     result_units,
     fp_out
 ){
